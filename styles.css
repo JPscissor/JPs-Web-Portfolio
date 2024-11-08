@@ -24,11 +24,10 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('background.jpg') no-repeat center center;
+    background: url('img/background.jpg') no-repeat center center;
     background-size: cover;
     z-index: -1;
     opacity: 0.8;
-    filter: blur(4px);
 }
 
 
@@ -59,9 +58,9 @@ body {
     position: absolute;
     width: 32.73px;
     height: 31.82px;
-    right: 55px;
-    top: 13px;
-    background-image: url('tg.png'); /* Замените на иконку Telegram */
+    right: 95px;
+    top: 15.05px;
+    background-image: url('img/tg.png'); /* Замените на иконку Telegram */
 }
 
 .github {
@@ -70,16 +69,16 @@ body {
     height: 28.2px;
     right: 10px;
     top: 15.05px;
-    background-image: url('git.png'); /* Замените на иконку GitHub */
+    background-image: url('img/git.png'); /* Замените на иконку GitHub */
 }
 
 .discord {
     position: absolute;
     width: 30px;
-    height: 28.2px;
-    right: 95px;
+    height: 30px;
+    right: 53px;
     top: 15.05px;
-    background-image: url('ds.png'); /* Замените на иконку GitHub */
+    background-image: url('img/ds.png'); /* Замените на иконку GitHub */
 }
 
 /* Основной контент */
@@ -134,10 +133,25 @@ body {
     bottom: -400px;
     right: 100px;
 
-    background: url(Pfp.png);
+    background: url(img/Pfp.png);
     background-size: cover;
 }
 
+
+
+
+.backgroundBlur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/background.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+    filter: blur(4px);
+}
 
 /* Информационный текст */
 .info-content {
