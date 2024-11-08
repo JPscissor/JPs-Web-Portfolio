@@ -48,17 +48,26 @@ body {
     gap: 20px;
 }
 
+/* Анимация увеличения для ссылок навигационной панели */
 .nav-link {
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
+
+.nav-link:hover {
+    color: #ffffff; /* Измените на нужный цвет при наведении */
+    transform: scale(1.1); /* Увеличение текста на 10% */
+}
+
+
 
 .telegram {
     position: absolute;
     width: 32.73px;
     height: 31.82px;
-    right: 95px;
+    right: 50px;
     top: 15.05px;
     background-image: url('img/tg.png'); /* Замените на иконку Telegram */
 }
@@ -113,7 +122,7 @@ body {
 
 .contact-button {
     display: inline-block;
-    margin-top: 55px;
+    margin-top: 30px;
     padding: 15px 40px;
     font-size: 24px;
     font-weight: 300;
@@ -122,8 +131,16 @@ body {
     border-radius: 50px;
     background: transparent;
     cursor: pointer;
-    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
+
+/* Эффект при наведении */
+.contact-button:hover {
+    transform: scale(1.05); /* Легкое увеличение */
+    background-color: #FFFFFF; /* Изменение цвета фона */
+    color: #1B1B1B; /* Изменение цвета текста */
+}
+
 
 /* Изображение профиля */
 .profile-picture {
