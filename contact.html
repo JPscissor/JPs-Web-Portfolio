@@ -3,39 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Связаться</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="background"></div>
+    <!-- Размытый задний фон -->
+    <div class="backgroundBlur"></div>
 
-    <!-- Верхняя панель навигации -->
     <div class="navbar">
         <div class="nav-links">
             <a href="index.html" class="nav-link">Главная</a>
             <a href="info.html" class="nav-link">Информация</a>
             <a href="works.html" class="nav-link">Работы</a>
             <a href="contact.html" class="nav-link">Связаться</a>
+            
         </div>
         <!-- Социальные иконки -->
         <div class="social-icons">
             <div class="icon telegram"></div>
             <div class="icon github"></div>
             <div class="icon discord"></div>
-            
         </div>
-
     </div>
 
     <!-- Основной контент -->
-    <div class="content">
-        <div class="text-content">
-            <h1>Привет, я Андрей</h1>
-            <h2>Джуниор Бэкэнд разработчик</h2>
-            <button class="contact-button" onclick="goToContact()">Хочу поработать с вами</button>
-        </div>
-        <div class="profile-picture"></div>
-    </div>
+    <div class="contact">
+        <h1 id="animated-text"></h1>
+    </div>    
+
+    <div class="tg"></div>
+    <div class="ds"></div>
+    <div class="gb"></div>
+
+    <!-- Подпись -->
+    <div class="signature">@JPscissor</div>
+
     <script src="main.js"></script>
 </body>
 </html>
